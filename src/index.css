@@ -1,0 +1,54 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 10px;
+  background-color: var(--theme-footer-background);
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  background-color: #f00;
+}
+
+:root {
+  --text-color: #222;
+  --theme-color: rgb(68, 6, 68);
+  --theme-footer-background: #242424;
+
+  --margin-xs: 0.4rem;
+  --margin-s: 0.8rem;
+  --margin-m: 1.6rem;
+  --margin-l: 2.4rem;
+  --margin-xl: 3.2rem;
+  --margin-2xl: 4.8rem;
+  --margin-3xl: 6.4rem;
+
+  --font-default-size: 1.6rem;
+
+  --heading-default-color: var(--text-color);
+  --heading-default-size: 2.4rem;
+  --heading-default-size-large: 4.8rem;
+
+  --inputHeight: 50px;
+  --inputFontSize: 1.6rem;
+
+  --inputBackgroundColor: rgb(65 65 65);
+  --inputTextColor: rgb(150 149 149);
+
+  --inputFocusBackground: #fff;
+  --inputFocusTextColor: #000;
+}

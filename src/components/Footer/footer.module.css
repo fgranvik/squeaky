@@ -1,0 +1,23 @@
+.footer {
+  width: 100%;
+  background-color: var(--theme-footer-background);
+  padding: var(--margin-3xl) 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  color: white;
+  min-height: 400px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footerColumns {
+  display: grid;
+  grid-template-columns: 1fr 1px 1fr;
+  grid-column-gap: var(--margin-3xl);
+  margin-bottom: var(--margin-2xl);
+}
+
+.divider {
+  background-color: blueviolet;
+}

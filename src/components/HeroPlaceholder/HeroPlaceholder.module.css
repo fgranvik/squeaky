@@ -1,0 +1,11 @@
+.hero {
+  max-height: 551px;
+  width: 100%;
+  text-align: center;
+  padding: var(--margin-2xl);
+  font-size: 1.6rem;
+  background-image: url("../../images/hero_background_2.jpg");
+  background-size: cover;
+  background-position: bottom;
+  margin-bottom: 131px;
+}

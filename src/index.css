@@ -20,10 +20,6 @@ li {
   margin: 0;
 }
 
-section {
-  background-color: #f00;
-}
-
 :root {
   --text-color: #222;
   --theme-color: rgb(68, 6, 68);

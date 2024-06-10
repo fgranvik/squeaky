@@ -2,12 +2,13 @@ import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import styles from "./contactForm.module.css";
 import Margin from "../Margin/margin";
+import Heading from "../Heading/heading";
 
 export const ContactForm: React.FC = () => {
   const [state, handleSubmit] = useForm("mqkrreqb");
 
   if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+    return <Heading type="h2" color="white">Welcome to the squeaky crew!</Heading>;
   }
 
   return (

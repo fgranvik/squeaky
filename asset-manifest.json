@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/squeaky/static/css/main.719b2cdc.css",
+    "main.css": "/squeaky/static/css/main.15dec30e.css",
     "main.js": "/squeaky/static/js/main.25ec01af.js",
     "static/js/453.998e2c0b.chunk.js": "/squeaky/static/js/453.998e2c0b.chunk.js",
     "static/media/hero_background_2.jpg": "/squeaky/static/media/hero_background_2.18adbabd312cc024def6.jpg",
     "static/media/icon_transparent.png": "/squeaky/static/media/icon_transparent.a4beb60dd3adbc0bef32.png",
     "static/media/logo_horizontal.svg": "/squeaky/static/media/logo_horizontal.088ae25b0a603c435bcccdf6618ccc17.svg",
     "index.html": "/squeaky/index.html",
-    "main.719b2cdc.css.map": "/squeaky/static/css/main.719b2cdc.css.map",
+    "main.15dec30e.css.map": "/squeaky/static/css/main.15dec30e.css.map",
     "main.25ec01af.js.map": "/squeaky/static/js/main.25ec01af.js.map",
     "453.998e2c0b.chunk.js.map": "/squeaky/static/js/453.998e2c0b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.719b2cdc.css",
+    "static/css/main.15dec30e.css",
     "static/js/main.25ec01af.js"
   ]
 }

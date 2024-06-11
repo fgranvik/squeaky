@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styles from "./youtubeLatest.module.css";
 
-const API_KEY = "AIzaSyAb7MvwjqndOG4CPt-73nmRIji8-BglzCo";
+const API_KEY = process.env.REACT_APP_YOUTUBE_API_KEY;
 const CHANNEL_ID = "UCmNQ0iGSq8rpSJT893QNEZg";
 
 interface YouTubeVideo {

@@ -2,7 +2,7 @@
   "name": "squeaky",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://fgranvik.github.io/squeaky",
+  "homepage": "https://www.squeakyadventures.com",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

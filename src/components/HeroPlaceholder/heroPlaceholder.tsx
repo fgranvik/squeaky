@@ -14,7 +14,7 @@ export const HeroPlaceholder: React.FC = () => {
       <img
         src="https://placehold.co/900x500?text=?"
         alt="Something is about to happen..."
-        style={{ position: "relative", top: 50 }}
+        className={styles.heroPlaceholder}
       />
     </section>
   );

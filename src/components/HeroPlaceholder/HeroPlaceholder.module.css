@@ -1,11 +1,33 @@
 .hero {
-  max-height: 551px;
+  max-height: 400px;
   width: 100%;
   text-align: center;
-  padding: var(--margin-2xl);
+  padding: var(--margin-2xl) 0;
   font-size: 1.6rem;
   background-image: url("../../images/hero_background_2.jpg");
   background-size: cover;
   background-position: bottom;
   margin-bottom: 131px;
+
+  @media screen and (min-width: 900px) {
+    padding: var(--margin-3xl) 0;
+    max-height: 551px;
+  }
+}
+
+.heroPlaceholder {
+  width: 100%;
+  aspect-ratio: 16/9;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  @media screen and (min-width: 900px) {
+    width: 900px;
+  }
 }

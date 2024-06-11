@@ -11,7 +11,9 @@ export const HeaderMenu: React.FC = () => {
       </div>
       <div className={styles.social}>
         <Link to="/contact">Contact</Link>
-        <SocialMedia showHeader={false} />
+        <div className={styles.hiddenMobile}>
+          <SocialMedia showHeader={false} />
+        </div>
       </div>
     </nav>
   );

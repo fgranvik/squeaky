@@ -52,10 +52,11 @@
     border-left: 2px solid #e0e0e0e0;
     padding: 16px;
 
-    @media screen and (max-width: 900px) {
-      display: none;
+    .hiddenMobile {
+      @media screen and (max-width: 900px) {
+        display: none;
+      }
     }
-
     a {
       color: var(--text-color);
       text-decoration: none;

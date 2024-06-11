@@ -42,7 +42,7 @@ const Contact: React.FC = () => {
         <p>Last updated: 2024-06-11</p>
         <Margin bottom={64} />
 
-        <div style={{ width: "60%" }}>
+        <div className="textColumn">
           <Heading type="h3">
             Awesome! Whether you have questions, suggestions, or just want to
             share your own adventure stories, I’d love to hear from you.

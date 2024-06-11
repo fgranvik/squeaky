@@ -1,5 +1,5 @@
 .content {
-  padding: var(--margin-m);
+  padding: var(--margin-l);
   width: 90%;
 
   @media screen and (min-width: 900px) {

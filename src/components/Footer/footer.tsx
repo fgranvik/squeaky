@@ -19,7 +19,9 @@ export const Footer: React.FC = () => {
           <SocialMedia inverted={true} size="large" />
         </div>
       </Content>
-      <p>&copy; 2024 Squeaky Adventures. All rights reserved.</p>
+      <p className={styles.copyright}>
+        &copy; 2024 Squeaky Adventures. All rights reserved.
+      </p>
     </footer>
   );
 };

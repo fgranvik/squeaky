@@ -1,5 +1,5 @@
 .hero {
-  max-height: 400px;
+  height: 300px;
   width: 100%;
   text-align: center;
   padding: var(--margin-2xl) 0;
@@ -11,7 +11,7 @@
 
   @media screen and (min-width: 900px) {
     padding: var(--margin-3xl) 0;
-    max-height: 551px;
+    height: 551px;
   }
 }
 

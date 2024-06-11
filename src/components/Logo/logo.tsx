@@ -31,7 +31,12 @@ const Logo: React.FC<LogoProps> = ({ size = "medium" }) => {
   }
 
   return (
-    <img src={icon} alt="Squeaky Adventures Icon" style={{ width, height }} />
+    <img
+      src={icon}
+      alt="Squeaky Adventures Icon"
+      style={{ width, height }}
+      loading="lazy"
+    />
   );
 };
 

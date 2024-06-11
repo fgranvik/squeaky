@@ -8,7 +8,11 @@ export const ContactForm: React.FC = () => {
   const [state, handleSubmit] = useForm("mqkrreqb");
 
   if (state.succeeded) {
-    return <Heading type="h2" color="white">Welcome to the squeaky crew!</Heading>;
+    return (
+      <Heading type="h2" color="white">
+        Welcome to the squeaky crew!
+      </Heading>
+    );
   }
 
   return (
@@ -16,7 +20,7 @@ export const ContactForm: React.FC = () => {
       <label htmlFor="email" className={styles.title}>
         Enter your email and subscribe to the newsletter
       </label>
-      <p>
+      <p className={styles.newsletterDescription}>
         Subscribe to the newsletter and get information about what's going on,
         planned adventures and more!
       </p>

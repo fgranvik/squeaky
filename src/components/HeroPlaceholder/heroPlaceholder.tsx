@@ -15,6 +15,7 @@ export const HeroPlaceholder: React.FC = () => {
         src="https://placehold.co/900x506?text=?"
         alt="Something is about to happen..."
         className={styles.heroPlaceholder}
+        loading="lazy"
       />
     </section>
   );

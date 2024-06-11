@@ -25,7 +25,7 @@ export const SocialMedia: React.FC<Props> = ({
     <>
       {showHeader && (
         <>
-          <Heading type="h4" as="h3" color={inverted ? "white" : undefined}>
+          <Heading type="h2" as="h3" color={inverted ? "white" : undefined}>
             Follow me on social media
           </Heading>
           <Margin bottom={32} />

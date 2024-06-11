@@ -11,6 +11,10 @@
   align-items: center;
 }
 
+.copyright {
+  font-size: 1.2rem;
+}
+
 .footerColumns {
   display: flex;
   flex-direction: column-reverse;

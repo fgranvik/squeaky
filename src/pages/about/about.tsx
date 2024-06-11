@@ -83,8 +83,8 @@ const About: React.FC = () => {
           </Text>
           <Margin bottom={64} />
           <Heading type="h3">
-            ... oh, And you know that sound your boots do when your going on an
-            adventure? <br />
+            ... oh, And you know that sound your boots do when you're going on
+            an adventure? <br />
             Thats the squeak..
           </Heading>
         </div>

@@ -6,12 +6,23 @@
   padding: var(--margin-m) var(--margin-l);
   grid-row-gap: var(--margin-m);
   justify-content: center;
+  justify-items: center;
   background-color: #fff;
 
   @media screen and (min-width: 900px) {
+    justify-items: unset;
     padding: var(--margin-l);
     grid-template-columns: 1fr fit-content(200px);
     grid-template-rows: unset;
+  }
+
+  .logo {
+    width: 100%;
+    padding: 10px;
+
+    @media screen and (min-width: 900px) {
+      width: unset;
+    }
   }
 }
 

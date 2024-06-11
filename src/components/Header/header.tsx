@@ -5,7 +5,7 @@ import { ReactComponent as Logo } from "../../images/logo_horizontal.svg";
 export const Header: React.FC = () => {
   return (
     <header className={styles.header}>
-      <Logo />
+      <Logo className={styles.logo} />
       <HeaderMenu />
     </header>
   );

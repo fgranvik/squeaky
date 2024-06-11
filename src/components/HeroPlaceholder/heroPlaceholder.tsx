@@ -1,4 +1,5 @@
 import Heading from "../Heading/heading";
+import { LatestYouTubeVideo } from "../Youtube/Player/youtubeLatest";
 import styles from "./HeroPlaceholder.module.css";
 
 export const HeroPlaceholder: React.FC = () => {
@@ -13,7 +14,7 @@ export const HeroPlaceholder: React.FC = () => {
 
       <img
         src="https://placehold.co/900x500?text=?"
-        alt="YouTube"
+        alt="Something is about to happen..."
         style={{ position: "relative", top: 50 }}
       />
     </section>

@@ -25,6 +25,9 @@
     background-color: var(--inputBackgroundColor);
     color: var(--inputTextColor);
 
+    &::placeholder {
+      color: var(--inputPlaceholderColor);
+    }
     &:focus {
       outline: none;
       background-color: var(--inputFocusBackground);

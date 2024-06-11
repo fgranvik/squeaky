@@ -12,7 +12,7 @@ export const HeroPlaceholder: React.FC = () => {
       </Heading>
 
       <img
-        src="https://placehold.co/900x500?text=?"
+        src="https://placehold.co/900x506?text=?"
         alt="Something is about to happen..."
         className={styles.heroPlaceholder}
       />

@@ -25,7 +25,7 @@ export const SocialMedia: React.FC<Props> = ({
     <>
       {showHeader && (
         <>
-          <Heading type="h3" color={inverted ? "white" : undefined}>
+          <Heading type="h4" as="h3" color={inverted ? "white" : undefined}>
             Follow me on social media
           </Heading>
           <Margin bottom={32} />
@@ -42,6 +42,7 @@ export const SocialMedia: React.FC<Props> = ({
           href="https://www.youtube.com/@squeakyadventures_se"
           rel="noreferrer"
           target="_blank"
+          aria-label="Follow my adventures on Youtube"
         >
           <FontAwesomeIcon icon={faYoutube} className={styles.icon} />
         </a>
@@ -49,6 +50,7 @@ export const SocialMedia: React.FC<Props> = ({
           href="https://www.instagram.com/squeakyadventures"
           rel="noreferrer"
           target="_blank"
+          aria-label="Follow my adventures on Instagram"
         >
           <FontAwesomeIcon icon={faInstagram} className={styles.icon} />
         </a>
@@ -56,6 +58,7 @@ export const SocialMedia: React.FC<Props> = ({
           href="https://www.facebook.com/SqueakyAdventuresSE"
           rel="noreferrer"
           target="_blank"
+          aria-label="Follow my adventures on Facebook"
         >
           <FontAwesomeIcon icon={faFacebookSquare} className={styles.icon} />
         </a>

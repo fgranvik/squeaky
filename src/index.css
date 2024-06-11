@@ -42,9 +42,11 @@ li {
   --inputHeight: 50px;
   --inputFontSize: 1.6rem;
 
-  --inputBackgroundColor: rgb(65 65 65);
-  --inputTextColor: rgb(150 149 149);
+  --inputBackgroundColor: #1a1a1a;
+  --inputTextColor: #ffffff;
 
-  --inputFocusBackground: #fff;
+  --inputFocusBackground: #ffffff;
   --inputFocusTextColor: #000;
+
+  --inputPlaceholderColor: #fff;
 }

@@ -9,7 +9,7 @@ export const Footer: React.FC = () => {
   return (
     <footer className={styles.footer}>
       <Content className={styles.footerColumns}>
-        <div>
+        <div className={styles.footerColumnLeft}>
           <Logo size={250} />
         </div>
         <div className={styles.divider}></div>

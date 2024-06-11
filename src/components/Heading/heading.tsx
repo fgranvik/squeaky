@@ -9,10 +9,11 @@ interface HeadingProps {
 }
 
 const Heading: FC<HeadingProps> = ({ type, as, children, color }) => {
-  const Tag = as ?? type; // Use as if provided, otherwise fallback to type
+  const Tag = type;
+  const tagType = as || type;
 
   return (
-    <Tag className={styles[Tag]} style={{ color: color }}>
+    <Tag className={styles[tagType]} style={{ color: color }}>
       {children}
     </Tag>
   );

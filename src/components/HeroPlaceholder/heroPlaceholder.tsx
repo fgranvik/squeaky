@@ -1,5 +1,4 @@
 import Heading from "../Heading/heading";
-import { LatestYouTubeVideo } from "../Youtube/Player/youtubeLatest";
 import styles from "./HeroPlaceholder.module.css";
 
 export const HeroPlaceholder: React.FC = () => {

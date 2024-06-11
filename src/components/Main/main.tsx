@@ -1,4 +1,4 @@
-import { Hero } from "../Hero/hero";
+// import { Hero } from "../Hero/hero";
 import { HeroPlaceholder } from "../HeroPlaceholder/heroPlaceholder";
 import Margin from "../Margin/margin";
 // import { MediaList } from "../MediaList/mediaList";

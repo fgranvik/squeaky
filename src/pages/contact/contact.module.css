@@ -1,0 +1,43 @@
+.contactForm {
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: var(--margin-l);
+  }
+
+  .inputField,
+  .textarea {
+    appearance: none;
+    border: 1px solid var(--inputBorderColor);
+    box-shadow: none;
+    width: 100%;
+
+    border-radius: 0;
+    height: var(--inputHeight);
+    padding: var(--margin-xs) var(--margin-l);
+
+    &:focus {
+      outline: none;
+      background-color: var(--inputFocusBackground);
+      color: var(--inputFocusTextColor);
+    }
+  }
+
+  .submit {
+    height: var(--inputHeight);
+    background-color: var(--theme-color);
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    padding: 0 var(--margin-l);
+  }
+
+  .textarea {
+    height: 200px;
+    padding: var(--margin-l);
+  }
+}

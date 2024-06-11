@@ -5,6 +5,8 @@ import reportWebVitals from "./reportWebVitals";
 import { Header } from "./components/Header/header";
 import { Main } from "./components/Main/main";
 import { Footer } from "./components/Footer/footer";
+import { BrowserRouter as Router } from "react-router-dom";
+import { AppRoutes } from "./routes/routes";
 // import CookieNotification from "./components/CookieNotification/cookieNotification";
 
 const root = ReactDOM.createRoot(
@@ -12,10 +14,14 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Header />
-    <Main />
-    <Footer />
-    {/* <CookieNotification /> */}
+    <Router>
+      <Header />
+      <Main>
+        <AppRoutes />
+      </Main>
+      <Footer />
+      {/* <CookieNotification /> */}
+    </Router>
   </React.StrictMode>
 );
 

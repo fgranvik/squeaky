@@ -44,6 +44,7 @@ li {
 
   --inputBackgroundColor: #1a1a1a;
   --inputTextColor: #ffffff;
+  --inputBorderColor: #ccc;
 
   --inputFocusBackground: #ffffff;
   --inputFocusTextColor: #000;

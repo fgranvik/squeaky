@@ -23,7 +23,7 @@ const About: React.FC = () => {
 
         <Margin bottom={32} />
 
-        <div style={{ width: "60%" }}>
+        <div className="textColumn">
           <Heading type="h3">The Rider</Heading>
           <Text type="p">
             I started riding back in 2006 (even though I took my license in

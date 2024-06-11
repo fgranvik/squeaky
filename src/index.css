@@ -20,6 +20,14 @@ li {
   margin: 0;
 }
 
+.textColumn {
+  width: 100%;
+
+  @media screen and (min-width: 900px) {
+    width: 900px;
+  }
+}
+
 :root {
   --text-color: #222;
   --theme-color: #440644;

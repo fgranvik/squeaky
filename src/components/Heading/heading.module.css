@@ -17,7 +17,7 @@ h6 {
   font-size: 88px;
 
   @media (max-width: 900px) {
-    font-size: 48px;
+    font-size: 64px;
   }
 }
 

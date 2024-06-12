@@ -1,5 +1,6 @@
 import Heading from "../Heading/heading";
 import styles from "./HeroPlaceholder.module.css";
+import { ReactComponent as HeroPlaceholderImage } from "./placeholderImage.svg";
 
 export const HeroPlaceholder: React.FC = () => {
   return (
@@ -11,12 +12,7 @@ export const HeroPlaceholder: React.FC = () => {
         <Heading type="h1" color="white">
           Come back soon!
         </Heading>
-        <img
-          src="https://placehold.co/900x506?text=?"
-          alt="Something is about to happen..."
-          className={styles.heroPlaceholder}
-          loading="lazy"
-        />
+        <HeroPlaceholderImage />
       </div>
     </section>
   );

@@ -1,14 +1,12 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from "./socialMedia.module.css";
-import {
-  faFacebookSquare,
-  faInstagram,
-  faYoutube,
-} from "@fortawesome/free-brands-svg-icons";
 import Heading from "../Heading/heading";
 import classNames from "classnames";
 import Margin from "../Margin/margin";
+
+import { ReactComponent as YoutubeIcon } from "../../images/icons/youtube.svg";
+import { ReactComponent as InstagramIcon } from "../../images/icons/instagram.svg";
+import { ReactComponent as FacebookIcon } from "../../images/icons/facebook.svg";
 
 interface Props {
   showHeader?: boolean;
@@ -44,7 +42,7 @@ export const SocialMedia: React.FC<Props> = ({
           target="_blank"
           aria-label="Follow my adventures on Youtube"
         >
-          <FontAwesomeIcon icon={faYoutube} className={styles.icon} />
+          <YoutubeIcon className={styles.icon} />
         </a>
         <a
           href="https://www.instagram.com/squeakyadventures"
@@ -52,7 +50,7 @@ export const SocialMedia: React.FC<Props> = ({
           target="_blank"
           aria-label="Follow my adventures on Instagram"
         >
-          <FontAwesomeIcon icon={faInstagram} className={styles.icon} />
+          <InstagramIcon className={styles.icon} />
         </a>
         <a
           href="https://www.facebook.com/SqueakyAdventuresSE"
@@ -60,7 +58,7 @@ export const SocialMedia: React.FC<Props> = ({
           target="_blank"
           aria-label="Follow my adventures on Facebook"
         >
-          <FontAwesomeIcon icon={faFacebookSquare} className={styles.icon} />
+          <FacebookIcon className={styles.icon} />
         </a>
       </div>
     </>

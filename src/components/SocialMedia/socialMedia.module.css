@@ -13,15 +13,15 @@
 
 /* Size classes */
 .small .icon {
-  font-size: 1em; /* Adjust size as needed */
+  height: 1.8rem; /* Adjust size as needed */
 }
 
 .medium .icon {
-  font-size: 2em; /* Adjust size as needed */
+  height: 2rem; /* Adjust size as needed */
 }
 
 .large .icon {
-  font-size: 3.5em; /* Adjust size as needed */
+  height: 3.5rem; /* Adjust size as needed */
 }
 
 /* Inverted color */

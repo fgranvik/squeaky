@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.e5aff1f2.css",
-    "main.js": "/static/js/main.92ef09bb.js",
+    "main.css": "/static/css/main.8738d71e.css",
+    "main.js": "/static/js/main.e2632f79.js",
     "static/media/icon_transparent.png": "/static/media/icon_transparent.a4beb60dd3adbc0bef32.png",
     "static/media/hero_background_2.webp": "/static/media/hero_background_2.707b8c26855b4bea2ddc.webp",
     "static/media/logo_horizontal.svg": "/static/media/logo_horizontal.088ae25b0a603c435bcccdf6618ccc17.svg",
     "index.html": "/index.html",
+    "static/media/instagram.svg": "/static/media/instagram.b275481f909b0e33c1506dde6b52d620.svg",
     "static/media/placeholderImage.svg": "/static/media/placeholderImage.e169bf7b017ef74f06a4fc626dc63a42.svg",
-    "main.e5aff1f2.css.map": "/static/css/main.e5aff1f2.css.map",
-    "main.92ef09bb.js.map": "/static/js/main.92ef09bb.js.map"
+    "static/media/youtube.svg": "/static/media/youtube.8541cbcd4a1615c20ba925826d98b98f.svg",
+    "static/media/facebook.svg": "/static/media/facebook.47b3a32df61160c3786e3d52f23a19e9.svg",
+    "main.8738d71e.css.map": "/static/css/main.8738d71e.css.map",
+    "main.e2632f79.js.map": "/static/js/main.e2632f79.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5aff1f2.css",
-    "static/js/main.92ef09bb.js"
+    "static/css/main.8738d71e.css",
+    "static/js/main.e2632f79.js"
   ]
 }

@@ -8,7 +8,7 @@ import styles from "./footer.module.css";
 export const Footer: React.FC = () => {
   return (
     <footer className={styles.footer}>
-      <Content className={styles.footerColumns}>
+      <Content width="full" align="center" className={styles.footerColumns}>
         <div className={styles.footerColumnLeft}>
           <Logo size={250} />
         </div>
@@ -19,6 +19,7 @@ export const Footer: React.FC = () => {
           <SocialMedia inverted={true} size="large" />
         </div>
       </Content>
+      <Margin bottom={32} />
       <p className={styles.copyright}>
         &copy; 2024 Squeaky Adventures. All rights reserved.
       </p>

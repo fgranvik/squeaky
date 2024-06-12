@@ -1,33 +1,36 @@
 .hero {
-  height: 300px;
+  height: 104vw;
   width: 100%;
   text-align: center;
-  padding: var(--margin-2xl) 0;
   font-size: 1.6rem;
-  background-image: url("../../images/hero_background_2.webp");
-  background-size: cover;
-  background-position: bottom;
-  margin-bottom: 131px;
+  background-color: var(--footer-background);
 
   @media screen and (min-width: 900px) {
+    height: 746px;
+  }
+
+  .imageBackground {
+    background-image: url("../../images/hero_background_2.webp");
+    background-size: cover;
+    background-position: bottom;
     padding: var(--margin-3xl) 0;
-    height: 551px;
+    height: 450px;
   }
-}
 
-.heroPlaceholder {
-  width: 100%;
-  aspect-ratio: 16/9;
-  margin: 0 auto;
-  position: relative;
-  top: 50px;
-
-  img {
+  .heroPlaceholder {
     width: 100%;
-    height: auto;
-  }
+    aspect-ratio: 16/9;
+    margin: 0 auto;
+    position: relative;
+    top: 40px;
 
-  @media screen and (min-width: 900px) {
-    width: 900px;
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    @media screen and (min-width: 900px) {
+      width: 900px;
+    }
   }
 }

@@ -6,36 +6,39 @@ import { Content } from "../../components/Content/content";
 import Margin from "../../components/Margin/margin";
 import { Text } from "../../components/Text/text";
 import { Helmet } from "react-helmet";
+import { Main } from "../../components/Main/main";
 
 const About: React.FC = () => {
   return (
-    <Section>
-      <Content>
-        <Helmet>
-          <title>
-            Discover Squeaky Adventures: Motorcycle Journeys Through Swedish
-            Wilderness and Beyond.
-          </title>
-          <meta
-            name="description"
-            content="Explore the thrilling motorcycle adventures of Squeaky Adventures. From gravel roads in southern Sweden to mysterious caves and abandoned mines, join the ride and uncover hidden gems with a passionate rider who loves the unbeaten path."
-          />
-        </Helmet>
+    <Main>
+      <Helmet>
+        <title>
+          Discover Squeaky Adventures: Motorcycle Journeys Through Swedish
+          Wilderness and Beyond.
+        </title>
+        <meta
+          name="description"
+          content="Explore the thrilling motorcycle adventures of Squeaky Adventures. From gravel roads in southern Sweden to mysterious caves and abandoned mines, join the ride and uncover hidden gems with a passionate rider who loves the unbeaten path."
+        />
+      </Helmet>
 
-        <Margin top={64} />
-        <Heading type="h1" as="h2">
-          What the h*** is Squeaky Adventures?
-        </Heading>
-        <p>Last updated: 2024-06-11</p>
+      <Section>
+        <Content>
+          <Margin top={64} />
+          <Heading type="h1" as="h2">
+            What the h*** is Squeaky Adventures?
+          </Heading>
+          <p>Last updated: 2024-06-11</p>
 
-        <Margin bottom={64} />
-        <Text type="p">
-          You might be wondering what this is all about, so let me explain..
-        </Text>
+          <Margin bottom={64} />
+          <Text type="p">
+            You might be wondering what this is all about, so let me explain..
+          </Text>
+        </Content>
+      </Section>
 
-        <Margin bottom={32} />
-
-        <div className="textColumn">
+      <Section>
+        <Content>
           <Heading type="h3">The Rider</Heading>
           <Text type="p">
             I started riding back in 2006 (even though I took my license in
@@ -51,6 +54,7 @@ const About: React.FC = () => {
             switched to my KTM 690 Enduro from 2008. For the past 16 years, I've
             almost exclusively ridden on gravel roads through the forests.
           </Text>
+
           <Text type="p">
             Living in the southern part of Sweden, near the beautiful island of
             Öland, I have access to some truly amazing gravel roads both on
@@ -59,7 +63,11 @@ const About: React.FC = () => {
             you.
           </Text>
           <Margin bottom={32} />
+        </Content>
+      </Section>
 
+      <Section>
+        <Content>
           <Heading type="h3">The Adventures</Heading>
           <Text type="p">
             I've always had an adventurous spirit and a passion for exploring
@@ -80,6 +88,11 @@ const About: React.FC = () => {
             striking a balance between solo exploration and sharing these
             incredible experiences with others.
           </Text>
+        </Content>
+      </Section>
+
+      <Section>
+        <Content>
           <Margin bottom={32} />
 
           <Heading type="h3" color="purple">
@@ -99,10 +112,10 @@ const About: React.FC = () => {
             an adventure? <br />
             Thats the squeak..
           </Heading>
-        </div>
-        <Margin bottom={128} />
-      </Content>
-    </Section>
+          <Margin bottom={128} />
+        </Content>
+      </Section>
+    </Main>
   );
 };
 

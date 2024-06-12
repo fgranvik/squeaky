@@ -16,9 +16,7 @@ root.render(
   <React.StrictMode>
     <Router>
       <Header />
-      <Main>
-        <AppRoutes />
-      </Main>
+      <AppRoutes />
       <Footer />
       {/* <CookieNotification /> */}
     </Router>

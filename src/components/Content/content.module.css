@@ -1,7 +1,13 @@
 .contentWrapper {
   display: flex;
   margin-top: var(--margin-l);
+  width: 60%;
+
+  @media screen and (max-width: 900px) {
+    width: 100%;
+  }
 }
+
 .center {
   justify-content: center;
 }
@@ -12,22 +18,22 @@
   justify-content: flex-end;
 }
 
-.width {
-  .narrow {
-    width: 40%;
-  }
-  .wide {
-    width: 60%;
-  }
-  .full {
+.default {
+  width: 75%;
+
+  @media screen and (max-width: 900px) {
     width: 100%;
+    padding: 0 var(--margin-l);
   }
 }
-.content {
-  padding: var(--margin-l);
-  width: 90%;
 
-  @media screen and (min-width: 900px) {
-    width: 70%;
+.narrow {
+  width: 30%;
+}
+
+.full {
+  width: 100%;
+  @media screen and (max-width: 900px) {
+    padding: 0 var(--margin-l);
   }
 }

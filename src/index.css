@@ -42,6 +42,10 @@ li {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 :root {
   --text-color: #222;
   --theme-color: #440644;
@@ -55,6 +59,7 @@ li {
   --margin-2xl: 4.8rem;
   --margin-3xl: 6.4rem;
 
+  --font-family: "Montserrat", sans-serif;
   --font-default-size: 1.6rem;
 
   --heading-default-color: var(--text-color);

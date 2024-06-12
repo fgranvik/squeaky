@@ -5,6 +5,8 @@ import Home from "../pages/home/home";
 import About from "../pages/about/about";
 import Contact from "../pages/contact/contact";
 import NotFound from "../pages/notfound/notfound";
+import Cookies from "../pages/general/cookies/cookies";
+import Sitemap from "../pages/general/sitemap/sitemap";
 
 export const AppRoutes: React.FC = () => {
   return (
@@ -12,6 +14,8 @@ export const AppRoutes: React.FC = () => {
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/cookies" element={<Cookies />} />
+      <Route path="/sitemap" element={<Sitemap />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );

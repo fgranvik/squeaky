@@ -7,51 +7,62 @@ import Margin from "../../components/Margin/margin";
 import { useForm, ValidationError } from "@formspree/react";
 import styles from "./contact.module.css";
 import { Helmet } from "react-helmet";
+import { Main } from "../../components/Main/main";
 
 const Contact: React.FC = () => {
   const [state, handleSubmit] = useForm("xgeggara");
 
   if (state.succeeded) {
     return (
-      <Section>
-        <Content>
-          <Margin top={64} />
-          <Heading type="h1" as="h2">
-            Thanks for reaching out!
-          </Heading>
-          ;
-          <Heading type="h2" as="h3">
-            I'll get back to you as soon as possible.
-          </Heading>
-          <Heading type="h3">
-            In the meantime, feel free to explore more{" "}
-            <span style={{ color: "purple" }}>squeaky adventures!</span>
-          </Heading>
-          <Margin top={64} />
-        </Content>
-      </Section>
+      <Main>
+        <Helmet>
+          <title>Thanks for reaching out!</title>
+          <meta
+            name="description"
+            content="Thank you for your message! I'll get back to you as soon as possible. In the meantime, feel free to explore more squeaky adventures!"
+          />
+        </Helmet>
+
+        <Section>
+          <Content>
+            <Margin top={64} />
+            <Heading type="h1" as="h2">
+              Thanks for reaching out!
+            </Heading>
+            ;
+            <Heading type="h2" as="h3">
+              I'll get back to you as soon as possible.
+            </Heading>
+            <Heading type="h3">
+              In the meantime, feel free to explore more{" "}
+              <span style={{ color: "purple" }}>squeaky adventures!</span>
+            </Heading>
+            <Margin top={64} />
+          </Content>
+        </Section>
+      </Main>
     );
   }
 
   return (
-    <Section>
-      <Content>
-        <Helmet>
-          <title>Contact Squeaky Adventures: Lets get connected!</title>
-          <meta
-            name="description"
-            content="Reach out to Squeaky Adventures! Whether you have questions, suggestions, or adventure stories, I'd love to hear from you. Use the contact form to get in touch and let's connect."
-          />
-        </Helmet>
+    <Main>
+      <Helmet>
+        <title>Contact Squeaky Adventures: Lets get connected!</title>
+        <meta
+          name="description"
+          content="Reach out to Squeaky Adventures! Whether you have questions, suggestions, or adventure stories, I'd love to hear from you. Use the contact form to get in touch and let's connect."
+        />
+      </Helmet>
 
-        <Margin top={64} />
-        <Heading type="h1" as="h2">
-          So you want to get in touch?
-        </Heading>
-        <p>Last updated: 2024-06-11</p>
-        <Margin bottom={64} />
+      <Section>
+        <Content>
+          <Margin top={64} />
+          <Heading type="h1" as="h2">
+            So you want to get in touch?
+          </Heading>
+          <p>Last updated: 2024-06-11</p>
+          <Margin bottom={64} />
 
-        <div className="textColumn">
           <Heading type="h3">
             Awesome! Whether you have questions, suggestions, or just want to
             share your own adventure stories, I’d love to hear from you.
@@ -60,8 +71,12 @@ const Contact: React.FC = () => {
           <Heading type="h3" color="purple">
             Reach out and let’s connect!
           </Heading>
+        </Content>
+        <Margin bottom={32} />
+      </Section>
 
-          <Margin bottom={32} />
+      <Section>
+        <Content>
           <form onSubmit={handleSubmit} className={styles.contactForm}>
             <label htmlFor="contact-page-email" className={styles.title}>
               Email Address
@@ -105,11 +120,11 @@ const Contact: React.FC = () => {
               </button>
             </div>
           </form>
-        </div>
 
-        <Margin bottom={128} />
-      </Content>
-    </Section>
+          <Margin bottom={128} />
+        </Content>
+      </Section>
+    </Main>
   );
 };
 

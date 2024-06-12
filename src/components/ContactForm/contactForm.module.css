@@ -17,6 +17,7 @@
 .input {
   display: flex;
   flex-direction: row;
+  min-width: 350px;
 
   .inputField {
     appearance: none;

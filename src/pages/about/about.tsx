@@ -5,11 +5,23 @@ import Heading from "../../components/Heading/heading";
 import { Content } from "../../components/Content/content";
 import Margin from "../../components/Margin/margin";
 import { Text } from "../../components/Text/text";
+import { Helmet } from "react-helmet";
 
 const About: React.FC = () => {
   return (
     <Section>
       <Content>
+        <Helmet>
+          <title>
+            Discover Squeaky Adventures: Motorcycle Journeys Through Swedish
+            Wilderness and Beyond.
+          </title>
+          <meta
+            name="description"
+            content="Explore the thrilling motorcycle adventures of Squeaky Adventures. From gravel roads in southern Sweden to mysterious caves and abandoned mines, join the ride and uncover hidden gems with a passionate rider who loves the unbeaten path."
+          />
+        </Helmet>
+
         <Margin top={64} />
         <Heading type="h1" as="h2">
           What the h*** is Squeaky Adventures?

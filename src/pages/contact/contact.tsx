@@ -6,6 +6,7 @@ import Heading from "../../components/Heading/heading";
 import Margin from "../../components/Margin/margin";
 import { useForm, ValidationError } from "@formspree/react";
 import styles from "./contact.module.css";
+import { Helmet } from "react-helmet";
 
 const Contact: React.FC = () => {
   const [state, handleSubmit] = useForm("xgeggara");
@@ -35,6 +36,14 @@ const Contact: React.FC = () => {
   return (
     <Section>
       <Content>
+        <Helmet>
+          <title>Contact Squeaky Adventures: Lets get connected!</title>
+          <meta
+            name="description"
+            content="Reach out to Squeaky Adventures! Whether you have questions, suggestions, or adventure stories, I'd love to hear from you. Use the contact form to get in touch and let's connect."
+          />
+        </Helmet>
+
         <Margin top={64} />
         <Heading type="h1" as="h2">
           So you want to get in touch?

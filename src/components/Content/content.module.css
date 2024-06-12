@@ -1,3 +1,28 @@
+.contentWrapper {
+  display: flex;
+  margin-top: var(--margin-l);
+}
+.center {
+  justify-content: center;
+}
+.left {
+  justify-content: flex-start;
+}
+.right {
+  justify-content: flex-end;
+}
+
+.width {
+  .narrow {
+    width: 40%;
+  }
+  .wide {
+    width: 60%;
+  }
+  .full {
+    width: 100%;
+  }
+}
 .content {
   padding: var(--margin-l);
   width: 90%;

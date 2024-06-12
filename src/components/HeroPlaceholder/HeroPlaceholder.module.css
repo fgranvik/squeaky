@@ -1,35 +1,42 @@
-.hero {
-  height: 104vw;
-  width: 100%;
-  text-align: center;
-  font-size: 1.6rem;
-  background-color: var(--footer-background);
-
-  @media screen and (min-width: 900px) {
-    height: 746px;
-  }
-
-  .imageBackground {
-    background-image: url("../../images/hero_background_2.webp");
-    background-size: cover;
-    background-position: bottom;
-    padding: var(--margin-3xl) 0;
-    height: 450px;
-  }
-
-  .heroPlaceholder {
-    width: 100%;
-    aspect-ratio: 16/9;
-    margin: 0 auto;
-    position: relative;
-    top: 40px;
-
-    img {
+@media screen and (max-width: 899px) {
+  .hero {
+    .imageBackground {
+      background-image: url("../../images/hero_background_2.webp");
+      background-size: cover;
+      background-position: bottom;
+    }
+    .headline {
+      text-align: center;
+      padding: var(--margin-3xl) 0;
+    }
+    .heroPlaceholder {
       width: 100%;
-      height: auto;
+      aspect-ratio: 16/9;
+    }
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .hero {
+    height: 746px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6rem;
+    background-color: var(--footer-background);
+
+    .imageBackground {
+      background-image: url("../../images/hero_background_2.webp");
+      background-size: cover;
+      background-position: bottom;
+      padding: var(--margin-3xl) 0;
+      height: 450px;
     }
 
-    @media screen and (min-width: 900px) {
+    .heroPlaceholder {
+      aspect-ratio: 16/9;
+      margin: 0 auto;
+      position: relative;
+      top: 40px;
       width: 900px;
     }
   }

@@ -6,12 +6,14 @@ export const HeroPlaceholder: React.FC = () => {
   return (
     <section className={styles.hero}>
       <div className={styles.imageBackground}>
-        <Heading type="h1" as="h3" color="white">
-          Something is about to happen
-        </Heading>
-        <Heading type="h1" color="white">
-          Come back soon!
-        </Heading>
+        <div className={styles.headline}>
+          <Heading type="h1" as="h3" color="white">
+            Something is about to happen
+          </Heading>
+          <Heading type="h1" color="white">
+            Come back soon!
+          </Heading>
+        </div>
         <HeroPlaceholderImage className={styles.heroPlaceholder} />
       </div>
     </section>

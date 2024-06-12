@@ -12,7 +12,7 @@ export const HeroPlaceholder: React.FC = () => {
         <Heading type="h1" color="white">
           Come back soon!
         </Heading>
-        <HeroPlaceholderImage />
+        <HeroPlaceholderImage className={styles.heroPlaceholder} />
       </div>
     </section>
   );

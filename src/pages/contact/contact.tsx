@@ -12,15 +12,21 @@ import { Main } from "../../components/Main/main";
 const Contact: React.FC = () => {
   const [state, handleSubmit] = useForm("xgeggara");
 
+  const title =
+    "Thanks for reaching out! | Squeaky Adventures: Motorcycle Journeys Through Swedish Wilderness and Beyond.";
+  const deescription =
+    "Thank you for your message! I'll get back to you as soon as possible. In the meantime, feel free to explore more squeaky adventures!";
+  const url = "https://squeakyadventures.com/contact";
+
   if (state.succeeded) {
     return (
       <Main>
         <Helmet>
-          <title>Thanks for reaching out!</title>
-          <meta
-            name="description"
-            content="Thank you for your message! I'll get back to you as soon as possible. In the meantime, feel free to explore more squeaky adventures!"
-          />
+          <title>{title}</title>
+          <meta name="description" content={deescription} />
+          <meta name="og:title" content={title} />
+          <meta name="og:description" content={deescription} />
+          <meta property="og:url" content={url} />
         </Helmet>
 
         <Section>

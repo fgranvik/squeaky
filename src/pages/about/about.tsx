@@ -9,17 +9,20 @@ import { Helmet } from "react-helmet";
 import { Main } from "../../components/Main/main";
 
 const About: React.FC = () => {
+  const title =
+    "Discover Squeaky Adventures: Motorcycle Journeys Through Swedish Wilderness and Beyond.";
+  const deescription =
+    "Explore the thrilling motorcycle adventures of Squeaky Adventures. From gravel roads in southern Sweden to mysterious caves and abandoned mines, join the ride and uncover hidden gems with a passionate rider who loves the unbeaten path.";
+  const url = "https://squeakyadventures.com/about";
+
   return (
     <Main>
       <Helmet>
-        <title>
-          Discover Squeaky Adventures: Motorcycle Journeys Through Swedish
-          Wilderness and Beyond.
-        </title>
-        <meta
-          name="description"
-          content="Explore the thrilling motorcycle adventures of Squeaky Adventures. From gravel roads in southern Sweden to mysterious caves and abandoned mines, join the ride and uncover hidden gems with a passionate rider who loves the unbeaten path."
-        />
+        <title>{title}</title>
+        <meta name="description" content={deescription} />
+        <meta name="og:title" content={title} />
+        <meta name="og:description" content={deescription} />
+        <meta property="og:url" content={url} />
       </Helmet>
 
       <Section>

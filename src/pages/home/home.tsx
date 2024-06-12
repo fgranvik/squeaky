@@ -5,17 +5,20 @@ import { Helmet } from "react-helmet";
 import { Main } from "../../components/Main/main";
 
 const Home: React.FC = () => {
+  const title =
+    "Motorcycle adventures, solo camping and occational spelunking - Squeaky Adventures";
+  const deescription =
+    "Discover your next adventure at SqueakyAdventures.com. Find hidden gems, travel tips, and connect with fellow explorers. Start your journey now!";
+  const url = "https://squeakyadventures.com";
+
   return (
     <Main>
       <Helmet>
-        <title>
-          Motorcycle adventures, solo camping and occational spelunking -
-          Squeaky Adventures
-        </title>
-        <meta
-          name="description"
-          content="Discover your next adventure at SqueakyAdventures.com. Find hidden gems, travel tips, and connect with fellow explorers. Start your journey now!"
-        />
+        <title>{title}</title>
+        <meta name="description" content={deescription} />
+        <meta name="og:title" content={title} />
+        <meta name="og:description" content={deescription} />
+        <meta property="og:url" content={url} />
       </Helmet>
 
       <HeroPlaceholder />

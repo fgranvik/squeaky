@@ -28,6 +28,7 @@
   }
 
   .submit {
+    font-family: "Montserrat", sans-serif;
     height: var(--inputHeight);
     background-color: var(--theme-color);
     color: #fff;

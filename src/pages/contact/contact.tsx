@@ -8,6 +8,7 @@ import { useForm, ValidationError } from "@formspree/react";
 import styles from "./contact.module.css";
 import { Helmet } from "react-helmet";
 import { Main } from "../../components/Main/main";
+import { LastUpdate } from "../../components/LastUpdate/lastUpdate";
 
 const Contact: React.FC = () => {
   const [state, handleSubmit] = useForm("xgeggara");
@@ -66,7 +67,7 @@ const Contact: React.FC = () => {
           <Heading type="h1" as="h2">
             So you want to get in touch?
           </Heading>
-          <p>Last updated: 2024-06-11</p>
+          <LastUpdate date="2024-06-12" />
           <Margin bottom={64} />
 
           <Heading type="h3">

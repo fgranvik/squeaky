@@ -7,6 +7,7 @@ import Margin from "../../components/Margin/margin";
 import { Text } from "../../components/Text/text";
 import { Helmet } from "react-helmet";
 import { Main } from "../../components/Main/main";
+import { LastUpdate } from "../../components/LastUpdate/lastUpdate";
 
 const About: React.FC = () => {
   const title =
@@ -31,12 +32,12 @@ const About: React.FC = () => {
           <Heading type="h1" as="h2">
             What the h*** is Squeaky Adventures?
           </Heading>
-          <p>Last updated: 2024-06-11</p>
+          <LastUpdate date="2024-06-12" />
 
           <Margin bottom={64} />
-          <Text type="p">
+          <Heading type="h3" color="purple">
             You might be wondering what this is all about, so let me explain..
-          </Text>
+          </Heading>
         </Content>
       </Section>
 

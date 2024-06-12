@@ -4,6 +4,7 @@ import { Content } from "../../components/Content/content";
 import { Helmet } from "react-helmet";
 import Heading from "../../components/Heading/heading";
 import Margin from "../../components/Margin/margin";
+import { Text } from "../../components/Text/text";
 
 const NotFound: React.FC = () => {
   return (
@@ -23,7 +24,14 @@ const NotFound: React.FC = () => {
         <div style={{ textAlign: "center" }}>
           <Margin bottom={48} />
           <Heading type="h1">404</Heading>
-          <Heading type="h2">Page not found</Heading>
+          <Heading type="h2" color="purple">
+            Page not found
+          </Heading>
+          <Margin bottom={32} />
+          <Text type="div">
+            <Text type="strong">Oops!</Text> The page you are looking for does
+            not exist or is possibly broken.
+          </Text>
           <Margin bottom={128} />
         </div>
       </Content>

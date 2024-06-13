@@ -126,9 +126,10 @@ const About: React.FC = () => {
           </Text>
           <Margin bottom={64} />
           <Heading type="h3">
-            ... oh, And you know that sound your boots do when you're going on
-            an adventure? <br />
-            Thats the squeak..
+            ... oh, and you know that sound your boots make when you're getting
+            ready for an adventure? That distinct squeak as you walk across the
+            gravel to your motorcycle, ready to hit the open road? Thats the
+            squeak..
           </Heading>
           <Margin bottom={128} />
         </Content>

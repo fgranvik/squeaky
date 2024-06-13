@@ -10,7 +10,7 @@ export const HeroPlaceholder: React.FC = () => {
           <Heading type="h1" as="h3" color="white">
             Something is about to happen
           </Heading>
-          <Heading type="h1" color="white">
+          <Heading type="h2" as="h1" color="white">
             Come back soon!
           </Heading>
         </div>

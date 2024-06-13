@@ -17,6 +17,8 @@ const Contact: React.FC = () => {
     "Thanks for reaching out! | Squeaky Adventures: Motorcycle Journeys Through Swedish Wilderness and Beyond.";
   const deescription =
     "Thank you for your message! I'll get back to you as soon as possible. In the meantime, feel free to explore more squeaky adventures!";
+  const keywords =
+    "contact adventure rider, contact Squeaky Adventures, reach out to Squeaky Adventures, adventure motorcycle rider contact, get in touch with adventure rider, contact for motorcycle adventures, contact for gravel road riding, Squeaky Adventures contact";
   const url = "https://squeakyadventures.com/contact";
 
   if (state.succeeded) {
@@ -25,6 +27,7 @@ const Contact: React.FC = () => {
         <Helmet>
           <title>{title}</title>
           <meta name="description" content={deescription} />
+          <meta name="keywords" content={keywords} />
           <meta name="og:title" content={title} />
           <meta name="og:description" content={deescription} />
           <meta property="og:url" content={url} />

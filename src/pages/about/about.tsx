@@ -12,17 +12,20 @@ import { LastUpdate } from "../../components/LastUpdate/lastUpdate";
 const About: React.FC = () => {
   const title =
     "Discover Squeaky Adventures: Motorcycle Journeys Through Swedish Wilderness and Beyond.";
-  const deescription =
+  const description =
     "Explore the thrilling motorcycle adventures of Squeaky Adventures. From gravel roads in southern Sweden to mysterious caves and abandoned mines, join the ride and uncover hidden gems with a passionate rider who loves the unbeaten path.";
+  const keywords =
+    "adventure rider bio, KTM 690 Enduro rider, gravel road adventures, motorcycle travel story, Swedish wilderness exploration, solo motorcycle adventures, exploring caves and mines, Southern Sweden riding, Umeå to Kalmar rider, Squeaky Adventures about";
   const url = "https://squeakyadventures.com/about";
 
   return (
     <Main>
       <Helmet>
         <title>{title}</title>
-        <meta name="description" content={deescription} />
+        <meta name="description" content={description} />
+        <meta name="keywords" content={keywords} />
         <meta name="og:title" content={title} />
-        <meta name="og:description" content={deescription} />
+        <meta name="og:description" content={description} />
         <meta property="og:url" content={url} />
       </Helmet>
 

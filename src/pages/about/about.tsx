@@ -56,18 +56,29 @@ const About: React.FC = () => {
           </Text>
 
           <Text type="p">
-            After a couple of years on that bobber, I realized my true passion
-            was riding on gravel roads and exploring off the beaten path. So, I
-            switched to my KTM 690 Enduro from 2008. For the past 16 years, I've
-            almost exclusively ridden on gravel roads through the forests.
+            After a couple of years on that stupid bobber, I realized my true
+            passion was riding on gravel roads and exploring the mre remote and
+            less traveled areas. So, I switched to my KTM 690 Enduro from 2008.
+            For the past 16 years, I've almost exclusively ridden on gravel
+            roads through the forests.
           </Text>
 
           <Text type="p">
-            Living in the southern part of Sweden, near the beautiful island of
-            Öland, I have access to some truly amazing gravel roads both on
-            Öland and in the deep forests of Småland. Until now, I've kept
-            pretty much to myself, but it's time to share my experiences with
-            you.
+            Born in Umeå, in the northern part of Sweden, I moved to the Kalmar
+            region in the south, in 2001. Moving from the north to the south was
+            an adventure in itself, with new places to explore and different
+            landscapes to get used to. Living in the southern part of Sweden,
+            near the beautiful island of Öland, I have access to some truly
+            amazing scenery both on Öland and in the deep forests of Småland.
+          </Text>
+
+          <Text type="p">
+            Until now, I've kept pretty much to myself, but it's time to share
+            my experiences with you. I want to show that adventure is accessible
+            to everyone and that the thrill of discovery can be found just
+            around the corner. Whether you're riding a motorcycle, hiking, or
+            simply exploring your local area, there's always something new to
+            find and enjoy. Let’s make every journey one to remember.
           </Text>
           <Margin bottom={32} />
         </Content>

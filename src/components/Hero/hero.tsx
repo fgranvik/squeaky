@@ -1,6 +1,6 @@
-import Heading from "../Heading/heading";
-import { LatestYouTubeVideo } from "../Youtube/Player/youtubeLatest";
-import styles from "./hero.module.css";
+import Heading from "../Heading/Heading";
+import { LatestYouTubeVideo } from "../Youtube/Player/LatestYouTubeVideo";
+import styles from "./Hero.module.css";
 
 export const Hero: React.FC = () => {
   return (

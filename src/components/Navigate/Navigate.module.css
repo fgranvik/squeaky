@@ -1,0 +1,11 @@
+.navigateBack {
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  color: var(--text-color);
+}
+
+.icon {
+  height: 2.4rem;
+  margin-right: var(--margin-m);
+}

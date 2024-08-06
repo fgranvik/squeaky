@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import styles from "./youtubeLatest.module.css";
+import styles from "./LatestYouTubeVideo.module.css";
 
 const API_KEY = process.env.REACT_APP_YOUTUBE_API_KEY;
 const CHANNEL_ID = "UCmNQ0iGSq8rpSJT893QNEZg";

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import styles from "./cookieNotification.module.css";
+import styles from "./CookieNotification.module.css";
 
 const CookieNotification: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);

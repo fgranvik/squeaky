@@ -22,7 +22,7 @@
     width: 100%;
     text-align: center;
     font-size: 1.6rem;
-    background-color: var(--footer-background);
+    background-color: #fff;
 
     .imageBackground {
       background-image: url("../../images/hero_background_2.webp");

@@ -1,18 +1,18 @@
 import { Link } from "react-router-dom";
 import { Content } from "../../../components/Content/content";
-import Heading from "../../../components/Heading/heading";
-import { Main } from "../../../components/Main/main";
-import Margin from "../../../components/Margin/margin";
-import { Section } from "../../../components/Section/section";
-import { Text } from "../../../components/Text/text";
-import { LastUpdate } from "../../../components/LastUpdate/lastUpdate";
+import Heading from "../../../components/Heading/Heading";
+import { Main } from "../../../components/Main/Main";
+import Margin from "../../../components/Margin/Margin";
+import { Section } from "../../../components/Section/Section";
+import { Text } from "../../../components/Text/Text";
+import { LastUpdate } from "../../../components/LastUpdate/LastUpdate";
 
 const Sitemap: React.FC = () => {
   return (
     <Main>
       <Section>
         <Content>
-          <Margin top={64} />
+          <Margin top={24} />
           <Heading type="h1" as="h2">
             Sitemap
           </Heading>

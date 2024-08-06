@@ -1,5 +1,5 @@
-import styles from "./header.module.css";
-import { SocialMedia } from "../SocialMedia/socialMedia";
+import styles from "./Header.module.css";
+import { SocialMedia } from "../SocialMedia/SocialMedia";
 import { Link } from "react-router-dom";
 
 export const HeaderMenu: React.FC = () => {
@@ -8,6 +8,7 @@ export const HeaderMenu: React.FC = () => {
       <div className={styles.links}>
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
+        <Link to="/blog">Blog</Link>
       </div>
       <div className={styles.social}>
         <Link to="/contact">Contact</Link>

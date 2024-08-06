@@ -35,11 +35,27 @@ body {
   background-color: var(--theme-footer-background);
 }
 
-ul,
+ul {
+  margin-bottom: var(--margin-m);
+}
+
 li {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  margin-top: var(--margin-m);
+  margin-bottom: var(--margin-m);
+}
+
+em {
+  display: block;
+  border-left: 3px solid purple;
+  padding: var(--margin-m);
+  line-height: var(--margin-l);
+  margin-bottom: var(--margin-l);
+}
+em::after {
+  content: "\201C";
+  font-family: "Montserrat";
+  display: block;
+  clear: both;
 }
 
 a {
@@ -50,6 +66,9 @@ a {
   --text-color: #222;
   --theme-color: #440644;
   --theme-footer-background: #242424;
+  --border-color: #e0e0e0;
+
+  --backdrop: rgba(0, 0, 0, 0.9);
 
   --margin-xs: 0.4rem;
   --margin-s: 0.8rem;

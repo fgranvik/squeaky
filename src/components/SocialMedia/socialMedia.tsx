@@ -1,8 +1,8 @@
 import React from "react";
-import styles from "./socialMedia.module.css";
-import Heading from "../Heading/heading";
+import styles from "./SocialMedia.module.css";
+import Heading from "../Heading/Heading";
 import classNames from "classnames";
-import Margin from "../Margin/margin";
+import Margin from "../Margin/Margin";
 
 import { ReactComponent as YoutubeIcon } from "../../images/icons/youtube.svg";
 import { ReactComponent as InstagramIcon } from "../../images/icons/instagram.svg";

@@ -1,8 +1,8 @@
 import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
-import styles from "./contactForm.module.css";
-import Margin from "../Margin/margin";
-import Heading from "../Heading/heading";
+import styles from "./ContactForm.module.css";
+import Margin from "../Margin/Margin";
+import Heading from "../Heading/Heading";
 
 export const ContactForm: React.FC = () => {
   const [state, handleSubmit] = useForm("mqkrreqb");

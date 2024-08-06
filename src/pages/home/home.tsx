@@ -1,9 +1,8 @@
 // src/components/Home.tsx
 import React from "react";
-import { HeroPlaceholder } from "../../components/HeroPlaceholder/heroPlaceholder";
-// import { Hero } from "../../components/Hero/hero";
+import { HeroPlaceholder } from "../../components/HeroPlaceholder/HeroPlaceholder";
 import { Helmet } from "react-helmet";
-import { Main } from "../../components/Main/main";
+import { Main } from "../../components/Main/Main";
 
 const Home: React.FC = () => {
   const title =
@@ -14,8 +13,13 @@ const Home: React.FC = () => {
     "adventure rider, motorcycle adventures, KTM 690 Enduro, gravel road riding, Sweden adventures, motorcycle camping, solo motorcycle travel, exploring caves, abandoned mines, off-road riding, adventure motorcycling, Öland, Småland, Squeaky Adventures";
   const url = "https://squeakyadventures.com";
 
+  const mainPlaceholderStyle = {
+    backgroundColor: "transparent",
+    paddingBottom: "0",
+  };
+
   return (
-    <Main>
+    <Main style={mainPlaceholderStyle}>
       <Helmet>
         <title>{title}</title>
         <meta name="description" content={description} />
@@ -26,7 +30,6 @@ const Home: React.FC = () => {
       </Helmet>
 
       <HeroPlaceholder />
-      {/* <Hero /> */}
     </Main>
   );
 };

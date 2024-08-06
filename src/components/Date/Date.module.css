@@ -1,0 +1,13 @@
+.date {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  line-height: var(--margin-m);
+}
+
+.date svg {
+  height: 1.5rem;
+  margin-right: var(--margin-m);
+}

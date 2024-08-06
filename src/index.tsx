@@ -2,10 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 // import reportWebVitals from "./reportWebVitals";
-import { Header } from "./components/Header/header";
-import { Footer } from "./components/Footer/footer";
+import { Header } from "./components/Header/Header";
+import { Footer } from "./components/Footer/Footer";
 import { BrowserRouter as Router } from "react-router-dom";
 import { AppRoutes } from "./routes/routes";
+import { PrismicProvider } from "@prismicio/react";
+import { client } from "./prismic";
 // import CookieNotification from "./components/CookieNotification/cookieNotification";
 
 const root = ReactDOM.createRoot(
@@ -13,12 +15,14 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Router>
-      <Header />
-      <AppRoutes />
-      <Footer />
-      {/* <CookieNotification /> */}
-    </Router>
+    <PrismicProvider client={client}>
+      <Router>
+        <Header />
+        <AppRoutes />
+        <Footer />
+        {/* <CookieNotification /> */}
+      </Router>
+    </PrismicProvider>
   </React.StrictMode>
 );
 

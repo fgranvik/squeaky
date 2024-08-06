@@ -1,5 +1,5 @@
 import { PropsWithChildren } from "react";
-import styles from "./section.module.css";
+import styles from "./Section.module.css";
 
 interface Prop {}
 

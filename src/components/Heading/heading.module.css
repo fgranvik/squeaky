@@ -11,6 +11,10 @@ h6 {
   font-weight: 800;
 }
 
+.purple {
+  color: purple; /* var(--theme-color);*/
+}
+
 .h1 {
   font-size: 88px;
 
@@ -29,6 +33,14 @@ h6 {
 
 .h3 {
   font-size: 24px;
+
+  @media screen and (max-width: 900px) {
+    font-size: 4vw;
+  }
+}
+
+.h4 {
+  font-size: 16px;
 
   @media screen and (max-width: 900px) {
     font-size: 4vw;

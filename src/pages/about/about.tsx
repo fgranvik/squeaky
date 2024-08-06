@@ -1,13 +1,13 @@
 // src/components/About.tsx
 import React from "react";
-import { Section } from "../../components/Section/section";
-import Heading from "../../components/Heading/heading";
+import { Section } from "../../components/Section/Section";
+import Heading from "../../components/Heading/Heading";
 import { Content } from "../../components/Content/content";
-import Margin from "../../components/Margin/margin";
-import { Text } from "../../components/Text/text";
+import Margin from "../../components/Margin/Margin";
+import { Text } from "../../components/Text/Text";
 import { Helmet } from "react-helmet";
-import { Main } from "../../components/Main/main";
-import { LastUpdate } from "../../components/LastUpdate/lastUpdate";
+import { Main } from "../../components/Main/Main";
+import { LastUpdate } from "../../components/LastUpdate/LastUpdate";
 
 const About: React.FC = () => {
   const title =
@@ -31,7 +31,7 @@ const About: React.FC = () => {
 
       <Section>
         <Content>
-          <Margin top={64} />
+          <Margin top={24} />
           <Heading type="h1" as="h2">
             What the h*** is Squeaky Adventures?
           </Heading>

@@ -1,0 +1,34 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--backdrop);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  border-radius: 8px;
+  position: relative;
+  width: 50%;
+}
+.modalContent svg {
+  fill: white;
+}
+
+.closeButton {
+  position: absolute;
+  z-index: 1001;
+  right: -70px;
+  top: -60px;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+.closeButton svg {
+  height: 3.2rem;
+}

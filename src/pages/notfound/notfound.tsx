@@ -1,11 +1,11 @@
 import React from "react";
-import { Section } from "../../components/Section/section";
+import { Section } from "../../components/Section/Section";
 import { Content } from "../../components/Content/content";
 import { Helmet } from "react-helmet";
-import Heading from "../../components/Heading/heading";
-import Margin from "../../components/Margin/margin";
-import { Text } from "../../components/Text/text";
-import { Main } from "../../components/Main/main";
+import Heading from "../../components/Heading/Heading";
+import Margin from "../../components/Margin/Margin";
+import { Text } from "../../components/Text/Text";
+import { Main } from "../../components/Main/Main";
 
 const NotFound: React.FC = () => {
   return (

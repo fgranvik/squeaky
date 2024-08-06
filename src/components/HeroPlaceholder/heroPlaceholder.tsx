@@ -1,4 +1,4 @@
-import Heading from "../Heading/heading";
+import Heading from "../Heading/Heading";
 import styles from "./HeroPlaceholder.module.css";
 import { ReactComponent as HeroPlaceholderImage } from "./placeholderImage.svg";
 

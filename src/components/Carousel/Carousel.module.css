@@ -1,0 +1,112 @@
+.carousel {
+  position: relative;
+}
+
+/* .carouselControls { */
+.carouselControls {
+  position: absolute;
+  top: calc(50% - (48px / 2));
+  left: -64px;
+  width: calc(100% + 128px);
+  display: flex;
+  justify-content: space-between;
+}
+.carouselControls svg {
+  height: 3.2rem;
+  cursor: pointer;
+}
+
+.carouselControls span {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  pointer-events: all;
+}
+
+/* .carouselInner { */
+.carouselInner {
+  overflow: hidden;
+  border-radius: var(--border-radius-md);
+}
+
+.carouselInner .carouselItems {
+  display: flex;
+  flex-direction: row;
+  column-gap: 32px;
+  position: relative;
+  left: calc((-100% / var(--displayItems)) - 16px);
+}
+
+.carouselInner .carouselItems.single {
+  left: calc(-100% - 32px);
+  min-width: 0;
+}
+
+/* .carouselItem { */
+.carouselInner .carouselItems .carouselItem {
+  flex: 1 0 calc((100% / var(--displayItems)) - 16px);
+  position: relative;
+
+  &.single {
+    width: 100%;
+    flex: 1 0 100%;
+  }
+
+  &:hover > .magnifyAction {
+    display: flex;
+  }
+
+  .magnifyAction {
+    position: absolute;
+    right: var(--margin-m);
+    top: var(--margin-m);
+    display: none;
+    background-color: purple;
+    border-radius: 50%;
+    width: var(--margin-l);
+    height: var(--margin-l);
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .magnifyAction svg {
+    height: 1.6rem;
+    fill: white;
+  }
+}
+.carouselInner .carouselItems .carouselItem.animateLeft {
+  animation: animateLeft 0.5s;
+}
+
+.carouselInner .carouselItems .carouselItem.animateRight {
+  animation: animateRight 0.5s;
+}
+
+@keyframes animateLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100% - 32px));
+  }
+}
+
+@keyframes animateRight {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(100% + 32px));
+  }
+}
+
+.transition {
+  transition: transform 0.5s ease;
+}
+
+.itemOrder {
+  order: var(--itemOrder) !important;
+}

@@ -1,14 +1,14 @@
 // src/components/Contact.tsx
 import React from "react";
-import { Section } from "../../components/Section/section";
+import { Section } from "../../components/Section/Section";
 import { Content } from "../../components/Content/content";
-import Heading from "../../components/Heading/heading";
-import Margin from "../../components/Margin/margin";
+import Heading from "../../components/Heading/Heading";
+import Margin from "../../components/Margin/Margin";
 import { useForm, ValidationError } from "@formspree/react";
 import styles from "./contact.module.css";
 import { Helmet } from "react-helmet";
-import { Main } from "../../components/Main/main";
-import { LastUpdate } from "../../components/LastUpdate/lastUpdate";
+import { Main } from "../../components/Main/Main";
+import { LastUpdate } from "../../components/LastUpdate/LastUpdate";
 
 const Contact: React.FC = () => {
   const [state, handleSubmit] = useForm("xgeggara");
@@ -35,7 +35,7 @@ const Contact: React.FC = () => {
 
         <Section>
           <Content>
-            <Margin top={64} />
+            <Margin top={24} />
             <Heading type="h1" as="h2">
               Thanks for reaching out!
             </Heading>

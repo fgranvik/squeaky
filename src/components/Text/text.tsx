@@ -1,5 +1,5 @@
 import React, { PropsWithChildren } from "react";
-import styles from "./text.module.css";
+import styles from "./Text.module.css";
 
 interface Props {
   type?: "div" | "p" | "span" | "strong";

@@ -1,0 +1,34 @@
+.linkBlock {
+  box-shadow: inset 0 0 0 1px var(--border-color);
+  padding: var(--margin-m);
+}
+
+.linkBlock a {
+  color: var(--text-color);
+}
+
+.linkBlockImage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+  box-shadow: inset 0 0 0 1px var(--border-color);
+  margin-bottom: var(--margin-m);
+}
+
+.linkBlockImage img {
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.preamble {
+  font-size: 1.6rem;
+  display: -webkit-box;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-bottom: var(--margin-m);
+}

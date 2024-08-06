@@ -1,5 +1,17 @@
 import { PropsWithChildren } from "react";
+import styles from "./Main.module.css";
 
-export const Main: React.FC<PropsWithChildren> = ({ children }) => {
-  return <main>{children}</main>;
+interface Props {
+  style?: React.CSSProperties;
+}
+
+export const Main: React.FC<PropsWithChildren<Props>> = ({
+  children,
+  style,
+}) => {
+  return (
+    <main className={styles.main} style={style}>
+      {children}
+    </main>
+  );
 };

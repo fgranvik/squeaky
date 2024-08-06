@@ -1,5 +1,5 @@
-import styles from "./header.module.css";
-import { HeaderMenu } from "./headerMenu";
+import styles from "./Header.module.css";
+import { HeaderMenu } from "./HeaderMenu";
 import { ReactComponent as Logo } from "../../images/logo_horizontal.svg";
 import { Link } from "react-router-dom";
 

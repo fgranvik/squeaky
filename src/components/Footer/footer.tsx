@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import { ContactForm } from "../ContactForm/contactForm";
+import { ContactForm } from "../ContactForm/ContactForm";
 import { Content } from "../Content/content";
-import Logo from "../Logo/logo";
-import Margin from "../Margin/margin";
-import { SocialMedia } from "../SocialMedia/socialMedia";
-import styles from "./footer.module.css";
+import Logo from "../Logo/Logo";
+import Margin from "../Margin/Margin";
+import { SocialMedia } from "../SocialMedia/SocialMedia";
+import styles from "./Footer.module.css";
 
 export const Footer: React.FC = () => {
   return (

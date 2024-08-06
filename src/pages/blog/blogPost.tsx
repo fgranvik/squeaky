@@ -9,7 +9,7 @@ import { Main } from "../../components/Main/Main";
 import { PrismicRichText, usePrismicDocumentByUID } from "@prismicio/react";
 import styles from "./blog.module.css";
 import { useParams } from "react-router-dom";
-import { Preamble } from "../../components/Preamble/Preamble";
+// import { Preamble } from "../../components/Preamble/Preamble";
 import { Image } from "../../components/Image/Image";
 import { NavigateBack } from "../../components/Navigate/NavigateBack";
 import { Loader } from "../../components/Loader/Loader";

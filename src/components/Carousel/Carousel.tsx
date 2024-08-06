@@ -107,6 +107,7 @@ export const Carousel: React.FC<CarouselProps> = ({
     updateDisplayItems();
     window.addEventListener("resize", updateDisplayItems);
     return () => window.removeEventListener("resize", updateDisplayItems);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const rotateArray = (array: JSX.Element[], n: number) => {

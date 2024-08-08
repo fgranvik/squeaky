@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import { Header } from "./components/Header/Header";
 import { Footer } from "./components/Footer/Footer";
+import { Header } from "./components/Header/Header";
 import { BrowserRouter as Router } from "react-router-dom";
 import { AppRoutes } from "./routes/routes";
 import { PrismicProvider } from "@prismicio/react";

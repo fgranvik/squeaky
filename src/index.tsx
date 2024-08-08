@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import { Footer } from "./components/Footer/Footer";
-import { Header } from "./components/Header/Header";
+import { Footer } from "./components/Footer/Footer.tsx";
+import { Header } from "./components/Header/Header.tsx";
 import { BrowserRouter as Router } from "react-router-dom";
-import { AppRoutes } from "./routes/routes";
+import { AppRoutes } from "./routes/routes.tsx";
 import { PrismicProvider } from "@prismicio/react";
-import { client } from "./prismic";
+import { client } from "./prismic.tsx";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement

@@ -7,6 +7,8 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { AppRoutes } from "./routes/routes";
 import { PrismicProvider } from "@prismicio/react";
 import { client } from "./prismic";
+
+// Maby save for later
 // import CookieNotification from "./components/CookieNotification/cookieNotification";
 
 const root = ReactDOM.createRoot(

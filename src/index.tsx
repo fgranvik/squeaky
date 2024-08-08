@@ -1,14 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-// import reportWebVitals from "./reportWebVitals";
 import { Header } from "./components/Header/Header";
 import { Footer } from "./components/Footer/Footer";
 import { BrowserRouter as Router } from "react-router-dom";
 import { AppRoutes } from "./routes/routes";
 import { PrismicProvider } from "@prismicio/react";
 import { client } from "./prismic";
-// import CookieNotification from "./components/CookieNotification/cookieNotification";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -20,7 +18,6 @@ root.render(
         <Header />
         <AppRoutes />
         <Footer />
-        {/* <CookieNotification /> */}
       </Router>
     </PrismicProvider>
   </React.StrictMode>

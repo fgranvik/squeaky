@@ -1,0 +1,30 @@
+.socialMedia {
+  display: flex;
+  gap: var(--margin-m);
+}
+
+.socialMedia a {
+  text-decoration: none;
+}
+
+.icon {
+  color: black; /* Default color */
+}
+
+/* Size classes */
+.small .icon {
+  height: 1.8rem; /* Adjust size as needed */
+}
+
+.medium .icon {
+  height: 2rem; /* Adjust size as needed */
+}
+
+.large .icon {
+  height: 3.5rem; /* Adjust size as needed */
+}
+
+/* Inverted color */
+.inverted .icon {
+  color: white;
+}

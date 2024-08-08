@@ -1,0 +1,9 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-color: #fff;
+  padding-bottom: 128px;
+  min-height: 500px;
+}

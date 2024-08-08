@@ -1,12 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import { Footer } from "./components/Footer/Footer.tsx";
-import { Header } from "./components/Header/Header.tsx";
+import { Header } from "./components/Header/Header";
+import { Footer } from "./components/Footer/Footer";
 import { BrowserRouter as Router } from "react-router-dom";
-import { AppRoutes } from "./routes/routes.tsx";
+import { AppRoutes } from "./routes/routes";
 import { PrismicProvider } from "@prismicio/react";
-import { client } from "./prismic.tsx";
+import { client } from "./prismic";
+// import CookieNotification from "./components/CookieNotification/cookieNotification";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -18,6 +19,7 @@ root.render(
         <Header />
         <AppRoutes />
         <Footer />
+        {/* <CookieNotification /> */}
       </Router>
     </PrismicProvider>
   </React.StrictMode>
